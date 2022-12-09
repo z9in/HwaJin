@@ -5,7 +5,7 @@ const footerEl = document.querySelector('.footer');
 
 headerEl.innerHTML=`
 <h1 class="logo">
-<a href="/index.html">
+<a href="../index.html">
   <img src="../images/logo.png" alt="logo" />
 </a>
 </h1>
