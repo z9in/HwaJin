@@ -1,0 +1,333 @@
+/* header 박스 style 입니다. */
+
+/* main_bn css 입니다. */
+
+.main_bn {
+  max-width: 1920px;
+  height: 100%;
+  background-image: url(../images/mainbanner0.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 2s;
+  
+}
+.main_bn_title {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25% 10%;
+}
+
+.main_bn_title h3 {
+  font-size: 45px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.main_bn_title h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 9rem;
+  color: #fff;
+}
+
+.main_bn_title p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 3rem;
+}
+
+/* about 입니다. */
+
+.about {
+  width: 79.16666vw;
+  margin: 140px auto 0;
+}
+
+.about_bn {
+  height: 500px;
+  background-image: url(../images/main01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.about_title {
+  font-size: 50px;
+  font-weight: 500;
+  border-top: 3px solid var(--green);
+  display: inline-block;
+  margin-bottom: 88px;
+}
+
+.about_contents {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_contents p {
+  width: 55%;
+}
+
+/* product 입니다. */
+
+.product {
+  height: 1139px;
+  background: var(--bgc);
+  margin: 100px auto 0;
+  padding-top: 100px;
+}
+
+.product_width_rate {
+  width: 79.16666vw;
+}
+
+.product_title h3 {
+  font-size: 50px;
+  font-weight: 500;
+  border-top: 3px solid var(--green);
+  display: inline-block;
+}
+
+.product_title h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.product_contents {
+  margin: 61px 0;
+  display: flex;
+  gap: 5.5921%;
+}
+
+.product_contents_box {
+  width: 29.60526%;
+  height: 588px;
+}
+
+.product_contents_img {
+  width: 100%;
+}
+
+.product_contents_img img {
+  width: 100%;
+}
+
+.product_contents_text h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin: 25px 0;
+}
+
+.product_contents_text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.product_contents_btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 81px;
+}
+
+/* innovation 입니다. */
+
+.innovation {
+  width: 79.16666vw;
+  height: 560px;
+  background-image: url(../images/innovation.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 82px 0 82px 104px;
+  margin: 100px auto 200px;
+}
+
+.innovation_title h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.innovation_title h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 3.5rem;
+}
+
+.innovation_title p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.innovation_btn {
+  margin-top: 70px;
+}
+
+.innovation_btn a {
+  width: 160px;
+  height: 50px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.innovation_btn img {
+  width: 10px;
+}
+
+/* marketing 입니다. */
+
+.marketing {
+  width: 79.16666vw;
+  margin: 0 auto 100px;
+}
+
+.marketing_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.marketing_img {
+  width: 59.21052%;
+}
+
+.marketing_img img {
+  width: 100%;
+}
+
+.marketing_title {
+  width: 40.78947%;
+  padding: 80px 0 80px 7.89473%;
+}
+
+.marketing_title h3 {
+  width: 100%;
+  font-size: 50px;
+  font-weight: 500;
+}
+.marketing_title h1 {
+  word-wrap: break-word;
+  width: 100%;
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 4.3rem;
+}
+.marketing_title p {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.marketing_btn {
+  margin-top: 75px;
+}
+
+/* recruit 입니다. */
+
+.recruit {
+  margin: 0 auto;
+  background: var(--bgc);
+  padding: 100px 0;
+}
+
+.recruit_width_rate {
+  width: 79.16666vw;
+}
+
+.recruit_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recruit_img {
+  width: 59.21052%;
+}
+
+.recruit_img img {
+  width: 100%;
+}
+
+.recruit_title {
+  width: 40.78947%;
+  padding: 80px 7.89473% 80px 0px;
+}
+
+.recruit_title h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.recruit_title h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 4.3rem;
+}
+.recruit_title p {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.recruit_btn {
+  margin-top: 75px;
+}
+
+/* contact 입니다. */
+
+.contact {
+  width: 79.16666vw;
+  margin: 100px auto 0;
+}
+
+.contact_contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact_img {
+  width: 59.21052%;
+  height: 560px;
+}
+
+.contact_title {
+  width: 40.78947%;
+  padding: 80px 0 80px 7.89473%;
+}
+
+.contact_title h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.contact_title h1 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 4.3rem;
+}
+.contact_title p {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+
+.contact_btn {
+  margin-top: 75px;
+}
+
+/* ========================================================================== */

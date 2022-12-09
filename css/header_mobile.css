@@ -1,0 +1,251 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: "Noto Sans KR", sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* header 박스 style 입니다. */
+
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    position: relative;
+    z-index: 3;
+  }
+    
+  /* header 좌측 로고 style 입니다. */
+  
+  .logo a img {
+    width: 120px;
+    height: 25px;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* header 중앙 GNB style 입니다. */
+  
+  .header_nav {
+    display: none;
+  }
+ 
+  .lang {
+    display: none;
+  }
+  
+  .m_btn a {
+    position: absolute;
+    right: 20px;
+    top: 33px;
+    display: flex;
+    align-items: center;
+  }
+  
+ /* site_map 입니다. */
+
+.site_map {
+    display: none;
+  }
+  
+  .site_map_open {
+    display: block;
+  }
+  
+  /* site_map 의 상단입니다. */
+  
+  .site_map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    /* padding: 30px; */
+  }
+  
+  .site_map_upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* outline: 1px solid red; */
+  }
+  
+  .site_map_logo a img {
+    width: 120px;
+    height: 28px;
+  }
+  
+  /* site_map 의 하단입니다.8*/
+  
+  .site_map_nav {
+    height: 100%;
+  }
+  
+  .site_map_dep1_ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: left;
+    /* outline: 1px solid red; */
+  }
+  
+  .site_map_dep1_li {
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px solid #666;
+    position: relative;
+  }
+  /* 폰트 수정, 색상 변경 */
+  .site_map_dep1_li > a {
+    font-size: 28px;
+    color: #000;
+  }
+  
+  .site_map_dep1_li::after {
+    content: "";
+    width: 0px;
+    height: 3px;
+    background: #a2c233;
+    position: absolute;
+    top: 40px;
+    transition: 0.5s;
+  }
+  
+  .site_map_dep1_li:hover::after {
+    width: 105px;
+  }
+  
+  .site_map_dep1_li::before {
+    content: "";
+    width: 20px;
+    height: 12px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-image: url(../images/site_map_drop_arrow.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .site_map_dep1_li:hover::before {
+    width: 0px;
+  }
+  
+  .site_map_dep2_ul {
+    max-height: 0;
+    overflow: hidden;
+    margin-top: 5px;
+    transition: 1s;
+  }
+  
+  .site_map_dep2_li {
+    margin-top: 20px;
+  }
+  /* 폰트 수정, 색상 변경 */
+  .site_map_dep2_li > a {
+    font-size: 23px;
+    color: #444;
+  }
+  
+  .site_map_dep1_li:hover > ul {
+    max-height: 260px;
+  }
+   
+  /* ========================================================================== */
+
+/* footer 박스의 style 입니다. */
+
+.footer {
+    margin-top: 100px;
+    height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    
+  }
+  .footer_left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  /* footer 의 왼쪽 영역입니다. */
+  .footer_left_upper {
+    width: 100%;
+    /* outline: 1px solid red; */
+  }
+  .footer_left_upper a img {
+    display: none;
+  }
+
+  .footer_left_upper a {
+    color: #000;
+    
+  }
+  
+  .footer_left_info_1 p:first-child {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+  .footer_left_info_1 p:last-child {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 30px;
+  }
+  
+  .footer_left_info_2 {
+    margin-top: 30px;
+    font-size: 13px;
+    width: 100%;
+    /* outline: 1px solid red; */
+  }
+  
+  /* footer 의 오른쪽 영역입니다. */
+  
+  .footer_right {
+    width: 100%;
+    display: flex;
+    /* height: 21px; */
+  }
+  
+  .sns_btn {
+    width: 40%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .family_site {
+    width: 60%;
+    height: 100%;
+    display: block;
+  }
+  .family_site select {
+    width: 60%;
+    border: none;
+  }

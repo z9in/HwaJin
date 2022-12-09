@@ -1,0 +1,421 @@
+.sub_3 .sub_main_banner {
+  width: 100%;
+  height: 320px;
+}
+
+.sub_3 .sub_main_banner .container {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/mainbanner2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_3 .sub_main_banner .container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* sub_menu */
+.sub_3 .sub_menu {
+  margin-top: 25px;
+  max-width: 1520px;
+  height: 20px;
+  display: fixed;
+  left: 0px;
+  top: 120px;
+  padding-left: 20px;
+  display: none;
+}
+
+.sub_3 .sub_menu > p {
+  font-size: 14px;
+  color: #000;
+  display: inline-block;
+}
+
+.sub_3 .sub_menu > p:last-child {
+  color: #023586;
+}
+
+.sub_3 .sub_title {
+  margin-top: 65px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.sub_3 .sub_title .container {
+  max-width: 1520px;
+  position: relative;
+}
+
+.sub_title .container h2 {
+  border-top: 3px solid #a2c233;
+  display: inline-block;
+}
+
+.sub_3 .sub_title .container h2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.sub_3 #kind {
+  height: 200px;
+  padding: 0 20px;
+}
+
+#kind .container {
+  width: 100%;
+  height: 100%;
+}
+
+#kind .container ul {
+  margin: 20px auto 0;
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#kind .container ul > li {
+  width: 40%;
+  height: 40px;
+  border: 1px solid #000;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+#kind .container ul > li > button {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+  border: none;
+  background-color: transparent;
+}
+
+#kind .container ul > li:hover {
+  background-color: #000;
+}
+
+#kind .container ul > li:hover > button {
+  color: white;
+}
+
+.viewBox {
+  margin: 0 auto;
+  width: 100%;
+  /* height: 1000px; */
+  background-color: #f7f7f7;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin-bottom: 100px;
+}
+
+.viewBox .container {
+  margin: 0 auto;
+  max-width: 1530px;
+  /* height: 100%; */
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* outline: 1px solid red; */
+}
+
+.viewBox .container .info {
+  width: 100%;
+  /* height: 100%; */
+  /* outline: 1px solid blue; */
+}
+.viewBox .container .info .tech_info1{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.viewBox .container .info .tech_info1 .info_title{
+  width: 100%;
+  /* height: 30%; */
+  padding: 15px;
+}
+.viewBox .container .info .tech_info1 .info_details{
+  width: 100%;
+  height: 50%;
+  /* outline: 1px solid blue; */
+}
+.viewBox .container .info .tech_info1 .info_details .imgBox{
+  width: 100%;
+  height: 150px;
+  background-image: url(../images/suab1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* outline: 1px solid red; */
+}
+.viewBox .container .info .tech_info1 .info_details h2{
+ 
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* outline: 1px solid blue; */
+}
+.viewBox .container .info .tech_info1 h1{
+  font-size: 30px;
+  margin-bottom: 10px;
+  /* outline: 1px solid blue; */
+}
+.viewBox .container .info .tech_info1 p{
+  font-size: 20px;
+  /* margin-bottom: 20px; */
+  /* outline: 1px solid blue; */
+}
+
+
+
+.viewBox .container .info .tech_pic1{
+  width: 100%;
+  height: 210px;
+  background-image: url(../images/mainbanner2.jpg);
+  background-size: 100%;
+  /* outline: 1px solid blue; */
+  position: relative;
+}
+.viewBox .container .info .tech_pic1 .num {
+  width: 20px;
+  height: 20px;
+  background-color: #253a5c;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  /* padding-top: 10px; */
+  font-size: 12px;
+}
+.viewBox .container .info .tech_pic1 .num_box_11 {
+  position: absolute;
+  left: 70px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_12 {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_13 {
+  position: absolute;
+  left: 260px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_14 {
+  position: absolute;
+  left: 26px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_15 {
+  position: absolute;
+  left: 310px;
+  top: 120px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_16 {
+  position: absolute;
+  left: 120px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_17 {
+  position: absolute;
+  left: 160px;
+  top: 100px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic1 .num_box_18 {
+  position: absolute;
+  left: 130px;
+  top: 130px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.viewBox .container .info .tech_pic2{
+  width: 100%;
+  height: 210px;
+  background-image: url(../images/mainbanner2.jpg);
+  background-size: 100%;
+  outline: 1px solid blue;
+  position: relative;
+}
+.viewBox .container .info .tech_pic2 .num {
+  width: 20px;
+  height: 20px;
+  background-color: #253a5c;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  /* padding-top: 10px; */
+  font-size: 12px;
+}
+.viewBox .container .info .tech_pic2 .num_box_21 {
+  position: absolute;
+  left: 80px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic2 .num_box_22 {
+  position: absolute;
+  left: 160px;
+  top: 45px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic2 .num_box_23 {
+  position: absolute;
+  left: 250px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic2 .num_box_24 {
+  position: absolute;
+  left: 13px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic2 .num_box_25 {
+  position: absolute;
+  left: 230px;
+  top: 110px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic2 .num_box_26 {
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.viewBox .container .info .tech_pic3{
+  width: 100%;
+  height: 210px;
+  background-image: url(../images/mainbanner2.jpg);
+  background-size: 100%;
+  outline: 1px solid blue;
+  position: relative;
+}
+.viewBox .container .info .tech_pic3 .num {
+  width: 20px;
+  height: 20px;
+  background-color: #253a5c;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  /* padding-top: 10px; */
+  font-size: 12px;
+}
+.viewBox .container .info .tech_pic3 .num_box_31 {
+  position: absolute;
+  left: 70px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic3 .num_box_32 {
+  position: absolute;
+  left: 250px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic3 .num_box_33 {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic4{
+  width: 100%;
+  height: 210px;
+  background-image: url(../images/carpic.jpg);
+  background-size: 100%;
+  outline: 1px solid blue;
+  position: relative;
+}
+.viewBox .container .info .tech_pic4 .num {
+  width: 20px;
+  height: 20px;
+  background-color: #253a5c;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  /* padding-top: 10px; */
+  font-size: 12px;
+}
+.viewBox .container .info .tech_pic4 .num_box_41 {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.viewBox .container .info .tech_pic4 .num_box_42 {
+  position: absolute;
+  left: 110px;
+  top: 110px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.viewBox .container .info .tech_pic2 {
+  display: none;
+}
+.viewBox .container .info .tech_pic3 {
+  display: none;
+}
+.viewBox .container .info .tech_pic4 {
+  display: none;
+}
